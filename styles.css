@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #090b1a;
+  display: -ms-grid;
+  display: grid;
+  min-height: 100vh;
+  height: 100vh;
+  place-items: center;
+}
+
+.card {
+  width: 90%;
+  max-width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  background-color: #1b1938;
+  text-align: center;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.content {
+  font-family: 'Inter';
+  padding: 0.8rem 2rem;
+}
+
+h2 {
+  color: white;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+
+h2 span {
+  color: #aa5cdb;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7em;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.quantities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: 'Inter';
+  margin-bottom: 0.5rem;
+}
+
+.quantities h2 {
+  color: white;
+  text-transform: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.quantities h2 div {
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.images {
+  max-width: 100%;
+  background: #aa5cdb;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.desktop-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+  height: 100%;
+  display: none;
+}
+
+.mobile-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+}
+
+.attribution {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.attribution a {
+  color: #aa5cdb;
+}
+/*# sourceMappingURL=styles.css.map */

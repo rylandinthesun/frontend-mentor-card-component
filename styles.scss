@@ -23,7 +23,7 @@ body {
 
 .card {
 	width: 90%;
-	max-width: 1050px;
+	max-width: 1080px;
 	display: flex;
 	flex-direction: column-reverse;
 	background-color: $blue;
@@ -112,7 +112,7 @@ p {
 	color: $violet;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 740px) {
 	.card {
 		flex-direction: row;
 		text-align: start;
@@ -125,10 +125,6 @@ p {
 
 	h2 {
 		font-size: 2.1rem;
-	}
-
-	p {
-		font-size: 14px;
 	}
 
 	.quantities {

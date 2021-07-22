@@ -126,7 +126,7 @@ p {
   color: #aa5cdb;
 }
 
-@media (min-width: 745px) {
+@media only screen and (min-width: 700px) {
   .card {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -153,9 +153,10 @@ p {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-right: 1rem;
   }
-  .quantities h2 {
-    margin-right: 0.8rem;
+  .quantities h3 {
+    margin-right: 0.5rem;
   }
   .mobile-img {
     display: none;
